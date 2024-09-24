@@ -109,15 +109,43 @@ The benefit here is that it's explicitly set. However, note that the `DB_PASSWOR
 
 ### Deliverables
 1. `Dockerfile`
+    ![docker](./screenshots/dockerfile.png)
+
 2. Screenshot of AWS CodeBuild pipeline
+    ![coldbuild](./screenshots/codebuild-1.png)
+    ![coldbuild](./screenshots/codebuild-2.png)
+
 3. Screenshot of AWS ECR repository for the application's repository
+    ![ecr](./screenshots/ecr.png)
 4. Screenshot of `kubectl get svc`
+    ![svc](./screenshots/svc.png)
 5. Screenshot of `kubectl get pods`
+    ![svc](./screenshots/pods.png)
 6. Screenshot of `kubectl describe svc <DATABASE_SERVICE_NAME>`
+    ![database](./screenshots/describe-svc.png)
 7. Screenshot of `kubectl describe deployment <SERVICE_NAME>`
+    ![service](./screenshots/describe-coworking.png)
 8. All Kubernetes config files used for deployment (ie YAML files)
+    ![service](./screenshots/configmap-yaml.png)
+    ![service](./screenshots/deployment.png)
+    ![service](./screenshots/secret.png)
+    ![service](./screenshots/service.png)
+
+
+
 9. Screenshot of AWS CloudWatch logs for the application
+
+    ![cloudwatch](./screenshots/cloudwatch.png)
+
+
 10. `README.md` file in your solution that serves as documentation for your user to detail how your deployment process works and how the user can deploy changes. The details should not simply rehash what you have done on a step by step basis. Instead, it should help an experienced software developer understand the technologies and tools in the build and deploy process as well as provide them insight into how they would release new builds.
+
+link : 
+
+http://a746bd7d0cff743898bd3e9da39e9979-488595673.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage
+http://a746bd7d0cff743898bd3e9da39e9979-488595673.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits
+
+![api](./screenshots/link.png)
 
 
 ### Stand Out Suggestions

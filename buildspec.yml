@@ -12,7 +12,7 @@ phases:
     commands:
     - echo Starting build at `date`
     - echo Building the Docker image...
-    - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG ./analytics/.
+    - docker build -t $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/my-cluster:latest ./analytics/.
     - echo docker images
     - docker images
   post_build:
