@@ -32,7 +32,7 @@ For this project, you are a DevOps engineer who will be collaborating with a tea
     ![docker](./screenshots/dockerfile.png)
 
 2. Screenshot of AWS CodeBuild pipeline
-    ![coldbuild](./screenshots/codebuild-1.png)
+    ![coldbuild](./screenshots/image.png)
     ![coldbuild](./screenshots/codebuild-2.png)
 
 3. Screenshot of AWS ECR repository for the application's repository
