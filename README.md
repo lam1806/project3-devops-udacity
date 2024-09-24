@@ -53,16 +53,13 @@ For this project, you are a DevOps engineer who will be collaborating with a tea
     ![service](./screenshots/secret.png)
     ![service](./screenshots/service.png)
 
-
-
 9. Screenshot of AWS CloudWatch logs for the application
 
     ![cloudwatch](./screenshots/cloudwatch.png)
 
 
-10. `README.md` file in your solution that serves as documentation for your user to detail how your deployment process works and how the user can deploy changes. The details should not simply rehash what you have done on a step by step basis. Instead, it should help an experienced software developer understand the technologies and tools in the build and deploy process as well as provide them insight into how they would release new builds.
 
-link : 
+link API: 
 
 http://a746bd7d0cff743898bd3e9da39e9979-488595673.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage
 http://a746bd7d0cff743898bd3e9da39e9979-488595673.us-east-1.elb.amazonaws.com:5153/api/reports/user_visits
